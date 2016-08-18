@@ -7,4 +7,4 @@ dependencies:
 test:
   override:
     - "node tests/tester -p [$CIRCLE_NODE_INDEX,$CIRCLE_NODE_INDEX]"
-        parallel: true
+      parallel: true
